@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Confession 💗</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="hearts" id="hearts"></div>
+
+    <main class="card">
+        <div class="heart-icon">💗</div>
+
+        <section id="confession">
+            <p class="subtitle">I HAVE SOMETHING TO TELL YOU...</p>
+            <h1>I like you <span>♡</span></h1>
+            <p class="message">
+                I've been wanting to tell you this for a while.
+            </p>
+
+            <h2>DO YOU LIKE ME TOO?</h2>
+
+            <div class="buttons">
+                <button id="yesBtn">YES! 💖</button>
+                <button id="noBtn">NO 😭</button>
+            </div>
+
+            <p class="small-text">Choose wisely... hehe 💕</p>
+        </section>
+
+        <section id="dateSection" class="hidden">
+            <div class="big-heart">🥹💖</div>
+            <h1>YOU SAID YES!</h1>
+            <p class="message">You just made my day! ♡</p>
+
+            <h2>When are you free?</h2>
+            <p class="message">
+                Choose a date and time for our date!
+            </p>
+
+            <form id="dateForm">
+                <label for="dateInput">Choose a date:</label>
+                <input type="date" id="dateInput" required>
+
+                <label for="timeInput">Choose a time:</label>
+                <input type="time" id="timeInput" required>
+
+                <button type="submit" id="submitBtn">
+                    SEND MY RESPONSE 💌
+                </button>
+            </form>
+        </section>
+
+        <section id="thankYou" class="hidden">
+            <div class="big-heart">💐</div>
+            <h1>THANKS FOR YOUR RESPONSE</h1>
+            <p class="message">
+                See you at our date then
+                <span class="wink">😉</span>
+            </p>
+
+            <div class="sparkle">♡ ✨ ♡ ✨ ♡</div>
+
+            <button id="exitBtn" class="exit-btn">
+                See you soon my love 💗
+            </button>
+        </section>
+
+    </main>
+
+    <p class="footer">made with love ♡ just for you</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
